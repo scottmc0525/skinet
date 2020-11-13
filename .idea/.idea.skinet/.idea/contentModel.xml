@@ -12,15 +12,31 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="BaseApiController.cs" t="Include" />
+          <e p="BuggyController.cs" t="Include" />
+          <e p="ErrorController.cs" t="Include" />
           <e p="ProductsController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
           <e p="ProductToReturnDto.cs" t="Include" />
         </e>
+        <e p="Errors" t="Include">
+          <e p="ApiException.cs" t="Include" />
+          <e p="ApiResponse.cs" t="Include" />
+          <e p="ApiValidationErrorResponse.cs" t="Include" />
+        </e>
+        <e p="extensions" t="Include">
+          <e p="ApplicationServicesExtensions.cs" t="Include" />
+          <e p="SwaggerServiceExtensions.cs" t="Include" />
+        </e>
         <e p="Helpers" t="Include">
           <e p="MappingProfiles.cs" t="Include" />
+          <e p="Pagination.cs" t="Include" />
           <e p="ProductUrlResolver.cs" t="Include" />
+        </e>
+        <e p="Middleware" t="Include">
+          <e p="ExceptionMiddleware.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -85,7 +101,9 @@
         <e p="Specifications" t="Include">
           <e p="BaseSpecification.cs" t="Include" />
           <e p="ISpecification.cs" t="Include" />
+          <e p="ProductSpecParams.cs" t="Include" />
           <e p="ProductsWithTypesAndBrandsSpecification.cs" t="Include" />
+          <e p="ProductWithFiltersForCountSpecification.cs" t="Include" />
         </e>
       </e>
       <e p="Infrastructure" t="IncludeRecursive">

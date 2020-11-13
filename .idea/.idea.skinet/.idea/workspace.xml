@@ -23,54 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d78039-01a6-4792-91aa-4d404556b6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Helpers/ProductUrlResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-ang1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-ang2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-core2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-redis1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-code1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-code2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-react2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/hat-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/hat-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/hat-react2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-ang1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-ang2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-core2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-ts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Helpers/Pagination.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductSpecParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ErrorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ErrorController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Errors/ApiException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Errors/ApiException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Errors/ApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Errors/ApiResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/skinet.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/skinet.db-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/BaseEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Entities/ProductBrand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/ProductBrand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Entities/ProductType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/ProductType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Interfaces/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Interfaces/IProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/Config/ProductConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/Config/ProductConfiguration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Data/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/Migrations/20201111184051_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/Migrations/20201111184051_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/Migrations/20201111225712_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Data/StoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/StoreContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/StoreContextSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/StoreContextSeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +58,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://E:/Users/scott/source/repos/skinet/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/Core/Specifications/BaseSpecification.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Controllers/BuggyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/Core/Specifications/ISpecification.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/Infrastructure/Data/SpecificationEvaluator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Controllers/BaseApiController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Controllers/ErrorController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Middleware/ExceptionMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Users/scott/source/repos/skinet/API/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,25 +79,38 @@
         <option value="$PROJECT_DIR$/Core/Entities/ProductBrand.cs" />
         <option value="$PROJECT_DIR$/Core/Entities/ProductType.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Data/Config/ProductConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Infrastructure/Data/StoreContext.cs" />
         <option value="$PROJECT_DIR$/API/Program.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Data/StoreContextSeed.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Data/Migrations/StoreContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/Core/Interfaces/IProductRepository.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Data/ProductRepository.cs" />
-        <option value="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" />
-        <option value="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" />
-        <option value="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" />
-        <option value="$PROJECT_DIR$/Infrastructure/Data/GenericRepository.cs" />
-        <option value="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" />
-        <option value="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
         <option value="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" />
         <option value="$PROJECT_DIR$/API/Helpers.cs" />
-        <option value="$PROJECT_DIR$/API/Startup.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/ProductsController.cs" />
         <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/API/Helpers/ProductUrlResolver.cs" />
         <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" />
+        <option value="$PROJECT_DIR$/API/Errors/ApiResponse.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/BuggyController.cs" />
+        <option value="$PROJECT_DIR$/API/Errors/ApiException.cs" />
+        <option value="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" />
+        <option value="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/ErrorController.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" />
+        <option value="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" />
+        <option value="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Data/StoreContext.cs" />
+        <option value="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" />
+        <option value="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" />
+        <option value="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Data/GenericRepository.cs" />
+        <option value="$PROJECT_DIR$/API/Helpers/Pagination.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/ProductsController.cs" />
+        <option value="$PROJECT_DIR$/Core/Specifications/ProductSpecParams.cs" />
+        <option value="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
+        <option value="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" />
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
       </list>
     </option>
   </component>
@@ -135,6 +136,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
@@ -202,7 +204,8 @@
       <updated>1605133018447</updated>
       <workItem from="1605133077142" duration="7576000" />
       <workItem from="1605203164437" duration="14090000" />
-      <workItem from="1605220799887" duration="672000" />
+      <workItem from="1605220799887" duration="8362000" />
+      <workItem from="1605290341166" duration="11680000" />
     </task>
     <servers />
   </component>
@@ -232,97 +235,124 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605214016057" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1605220752076">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752076" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1605220752076">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752076" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1605220752076">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752076" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1605220752076">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752076" />
-    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1605220752071">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752071" />
-    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1605220752071">
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752071" />
-    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1605220752071">
+    <state width="1877" height="280" key="GridCell.Tab.1.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752071" />
-    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1605220752071">
+    <state width="1877" height="280" key="GridCell.Tab.1.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1605310610804">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752071" />
-    <state width="1877" height="280" key="GridCell.Tab.2.bottom" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.1.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.2.bottom" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.2.center" timestamp="1605220752071">
+    <state width="1877" height="280" key="GridCell.Tab.2.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.2.center" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752071" />
-    <state width="1877" height="280" key="GridCell.Tab.2.left" timestamp="1605220752071">
+    <state width="1877" height="280" key="GridCell.Tab.2.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.2.left" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752071" />
-    <state width="1877" height="280" key="GridCell.Tab.2.right" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.2.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
+    <state width="1877" height="280" key="GridCell.Tab.2.right" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.3.bottom" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.2.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.3.bottom" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.3.center" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.3.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.3.center" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.3.left" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.3.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.3.left" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.3.right" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.3.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.3.right" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.4.bottom" timestamp="1605220752073">
+    <state width="1877" height="280" key="GridCell.Tab.3.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.4.bottom" timestamp="1605310610807">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752073" />
-    <state width="1877" height="280" key="GridCell.Tab.4.center" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.4.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610807" />
+    <state width="1877" height="280" key="GridCell.Tab.4.center" timestamp="1605310610806">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.4.left" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.4.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610806" />
+    <state width="1877" height="280" key="GridCell.Tab.4.left" timestamp="1605310610805">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state width="1877" height="280" key="GridCell.Tab.4.right" timestamp="1605220752072">
+    <state width="1877" height="280" key="GridCell.Tab.4.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
+    <state width="1877" height="280" key="GridCell.Tab.4.right" timestamp="1605310610806">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605220752072" />
-    <state x="756" y="214" key="RiderGenerateDialog" timestamp="1605211585058">
+    <state width="1877" height="280" key="GridCell.Tab.4.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610806" />
+    <state x="756" y="214" key="RiderGenerateDialog" timestamp="1605297831825">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="756" y="214" key="RiderGenerateDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605211585058" />
+    <state x="756" y="214" key="RiderGenerateDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605297831825" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1605296925185">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605296925185" />
     <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog" timestamp="1605140203942">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605140203942" />
+    <state x="92" y="92" width="1736" height="864" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605309995505">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="92" y="92" width="1736" height="864" key="com.intellij.history.integration.ui.views.FileHistoryDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605309995505" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605134759531">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605134759531" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Controllers/ProductsController.cs</url>
+          <line>40</line>
+          <properties documentPath="E:\Users\scott\source\repos\skinet\API\Controllers\ProductsController.cs" initialLine="40">
+            <startOffsets>
+              <option value="1356" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1426" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
