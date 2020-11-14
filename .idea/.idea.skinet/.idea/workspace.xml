@@ -23,31 +23,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d78039-01a6-4792-91aa-4d404556b6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Helpers/Pagination.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductSpecParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/ssl/server.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/ssl/server.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ErrorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ErrorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Errors/ApiException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Errors/ApiException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Errors/ApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Errors/ApiResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/StoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/StoreContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +120,9 @@
         <option value="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
         <option value="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" />
         <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/client/angular.json" />
       </list>
     </option>
   </component>
@@ -137,6 +149,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="ts.external.directory.path" value="E:\Program Files\JetBrains\JetBrains Rider 2020.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
@@ -205,8 +218,16 @@
       <workItem from="1605133077142" duration="7576000" />
       <workItem from="1605203164437" duration="14090000" />
       <workItem from="1605220799887" duration="8362000" />
-      <workItem from="1605290341166" duration="11680000" />
+      <workItem from="1605290341166" duration="15630000" />
     </task>
+    <task id="LOCAL-00001" summary="new files, CORS, page, sort, and filter">
+      <created>1605311331073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605311331073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,92 +250,94 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="new files, CORS, page, sort, and filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files, CORS, page, sort, and filter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605214016057">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605214016057" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.1.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1605310610804">
+    <state width="1877" height="280" key="GridCell.Tab.1.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1605317666887">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.2.bottom" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.1.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666887" />
+    <state width="1877" height="280" key="GridCell.Tab.2.bottom" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.2.center" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.2.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.2.center" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.2.left" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.2.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.2.left" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610804" />
-    <state width="1877" height="280" key="GridCell.Tab.2.right" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.2.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.2.right" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.2.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.3.bottom" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.2.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.3.bottom" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.3.center" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.3.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.3.center" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.3.left" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.3.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.3.left" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.3.right" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.3.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.3.right" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.3.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.4.bottom" timestamp="1605310610807">
+    <state width="1877" height="280" key="GridCell.Tab.3.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.4.bottom" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610807" />
-    <state width="1877" height="280" key="GridCell.Tab.4.center" timestamp="1605310610806">
+    <state width="1877" height="280" key="GridCell.Tab.4.bottom/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.4.center" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610806" />
-    <state width="1877" height="280" key="GridCell.Tab.4.left" timestamp="1605310610805">
+    <state width="1877" height="280" key="GridCell.Tab.4.center/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.4.left" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610805" />
-    <state width="1877" height="280" key="GridCell.Tab.4.right" timestamp="1605310610806">
+    <state width="1877" height="280" key="GridCell.Tab.4.left/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
+    <state width="1877" height="280" key="GridCell.Tab.4.right" timestamp="1605317666888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.4.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605310610806" />
+    <state width="1877" height="280" key="GridCell.Tab.4.right/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605317666888" />
     <state x="756" y="214" key="RiderGenerateDialog" timestamp="1605297831825">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -323,6 +346,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="461" y="169" key="SettingsEditor/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605296925185" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1605311337389">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605311337389" />
     <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog" timestamp="1605140203942">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
