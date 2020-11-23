@@ -140,6 +140,11 @@
         </e>
         <e p="Identity" t="Include">
           <e p="AppIdentityDbContext.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="20201123234449_IdentityInitial.cs" t="Include" />
+            <e p="20201123234449_IdentityInitial.Designer.cs" t="Include" />
+            <e p="AppIdentityDbContextModelSnapshot.cs" t="Include" />
+          </e>
         </e>
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
