@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Infrastructure.Data;
+using Infrastructure.Identity;
 using StackExchange.Redis;
 
 namespace API
@@ -25,6 +26,8 @@ namespace API
             services.AddControllers ();
             services.AddDbContext<StoreContext> (x => 
                 x.UseSqlite(_config.GetConnectionString("defaultConnection")));
+            services.AddDbContext<AppIdentityDbContext>(x =>
+                x.UseSqlite(_config.GetConnectionString("IdentityConnection")));
             services.AddSingleton<IConnectionMultiplexer>(c =>
             {
                 var configuration = ConfigurationOptions.Parse(_config.GetConnectionString("Redis"),

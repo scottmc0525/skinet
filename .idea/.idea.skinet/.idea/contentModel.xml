@@ -138,6 +138,9 @@
           <e p="StoreContext.cs" t="Include" />
           <e p="StoreContextSeed.cs" t="Include" />
         </e>
+        <e p="Identity" t="Include">
+          <e p="AppIdentityDbContext.cs" t="Include" />
+        </e>
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
