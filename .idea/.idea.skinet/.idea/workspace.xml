@@ -23,10 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d78039-01a6-4792-91aa-4d404556b6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/TokenService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Infrastructure/Data/Migrations/StoreContextModelSnapshot.cs" />
-        <option value="$PROJECT_DIR$/Core/Interfaces/IProductRepository.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Data/ProductRepository.cs" />
         <option value="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" />
         <option value="$PROJECT_DIR$/API/Helpers.cs" />
@@ -95,6 +93,8 @@
         <option value="$PROJECT_DIR$/API/Dtos/UserDto.cs" />
         <option value="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Services/TokenService.cs" />
       </list>
     </option>
   </component>
@@ -195,7 +195,7 @@
       <workItem from="1606065168856" duration="1761000" />
       <workItem from="1606146040165" duration="391000" />
       <workItem from="1606171209157" duration="5648000" />
-      <workItem from="1606238353185" duration="4136000" />
+      <workItem from="1606238353185" duration="6569000" />
     </task>
     <task id="LOCAL-00001" summary="new files, CORS, page, sort, and filter">
       <created>1605311331073</created>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606244007946</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="register user">
+      <created>1606245808710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606245808710</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +291,8 @@
     <MESSAGE value="Add identity to startup, correct migration error" />
     <MESSAGE value="add identity to program class" />
     <MESSAGE value="add account controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add account controller" />
+    <MESSAGE value="register user" />
+    <option name="LAST_COMMIT_MESSAGE" value="register user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606242600605">
@@ -380,10 +388,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="461" y="169" key="SettingsEditor/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605296925185" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1606244009634">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1606245811760">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1606244009634" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1606245811760" />
     <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog" timestamp="1605140203942">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -392,6 +400,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="92" y="92" width="1736" height="864" key="com.intellij.history.integration.ui.views.FileHistoryDialog/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605309995505" />
+    <state x="638" y="123" width="644" height="801" key="find.popup" timestamp="1606256105217">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="638" y="123" width="644" height="801" key="find.popup/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1606256105217" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605134759531">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
