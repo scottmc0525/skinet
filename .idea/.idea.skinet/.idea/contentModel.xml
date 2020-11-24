@@ -12,6 +12,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="BaseApiController.cs" t="Include" />
           <e p="BasketController.cs" t="Include" />
           <e p="BuggyController.cs" t="Include" />
@@ -20,7 +21,9 @@
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
+          <e p="LoginDto.cs" t="Include" />
           <e p="ProductToReturnDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
         </e>
         <e p="Errors" t="Include">
           <e p="ApiException.cs" t="Include" />
@@ -38,8 +41,6 @@
           <e p="ProductUrlResolver.cs" t="Include" />
         </e>
         <e p="identity.db" t="Include" />
-        <e p="identity.db-shm" t="Include" />
-        <e p="identity.db-wal" t="Include" />
         <e p="Middleware" t="Include">
           <e p="ExceptionMiddleware.cs" t="Include" />
         </e>
