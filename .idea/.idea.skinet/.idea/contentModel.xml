@@ -29,6 +29,7 @@
         </e>
         <e p="extensions" t="Include">
           <e p="ApplicationServicesExtensions.cs" t="Include" />
+          <e p="IdentityServiceExtensions.cs" t="Include" />
           <e p="SwaggerServiceExtensions.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
@@ -140,9 +141,10 @@
         </e>
         <e p="Identity" t="Include">
           <e p="AppIdentityDbContext.cs" t="Include" />
+          <e p="AppIdentityDbContextSeed.cs" t="Include" />
           <e p="Migrations" t="Include">
-            <e p="20201123234449_IdentityInitial.cs" t="Include" />
-            <e p="20201123234449_IdentityInitial.Designer.cs" t="Include" />
+            <e p="20201123235643_IdentityInitial.cs" t="Include" />
+            <e p="20201123235643_IdentityInitial.Designer.cs" t="Include" />
             <e p="AppIdentityDbContextModelSnapshot.cs" t="Include" />
           </e>
         </e>

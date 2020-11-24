@@ -78,6 +78,7 @@ namespace Infrastructure.Identity.Migrations
                     LastName = table.Column<string>(nullable: true),
                     Street = table.Column<string>(nullable: true),
                     City = table.Column<string>(nullable: true),
+                    State = table.Column<string>(nullable: true),
                     ZipCode = table.Column<string>(nullable: true),
                     AppUserId = table.Column<string>(nullable: false)
                 },
