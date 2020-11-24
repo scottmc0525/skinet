@@ -23,6 +23,7 @@
         <e p="Dtos" t="Include">
           <e p="LoginDto.cs" t="Include" />
           <e p="ProductToReturnDto.cs" t="Include" />
+          <e p="RegisterDto.cs" t="Include" />
           <e p="UserDto.cs" t="Include" />
         </e>
         <e p="Errors" t="Include">
