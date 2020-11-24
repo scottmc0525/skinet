@@ -21,6 +21,7 @@
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
+          <e p="AddressDto.cs" t="Include" />
           <e p="LoginDto.cs" t="Include" />
           <e p="ProductToReturnDto.cs" t="Include" />
           <e p="RegisterDto.cs" t="Include" />
@@ -35,6 +36,7 @@
           <e p="ApplicationServicesExtensions.cs" t="Include" />
           <e p="IdentityServiceExtensions.cs" t="Include" />
           <e p="SwaggerServiceExtensions.cs" t="Include" />
+          <e p="UserManagerExtensions.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
           <e p="MappingProfiles.cs" t="Include" />
