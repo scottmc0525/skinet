@@ -22,6 +22,8 @@
         </e>
         <e p="Dtos" t="Include">
           <e p="AddressDto.cs" t="Include" />
+          <e p="BasketItemDto.cs" t="Include" />
+          <e p="CustomerBasketDto.cs" t="Include" />
           <e p="LoginDto.cs" t="Include" />
           <e p="ProductToReturnDto.cs" t="Include" />
           <e p="RegisterDto.cs" t="Include" />
