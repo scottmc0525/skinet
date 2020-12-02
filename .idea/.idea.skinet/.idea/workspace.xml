@@ -22,18 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d78039-01a6-4792-91aa-4d404556b6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Dtos/BasketItemDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Dtos/CustomerBasketDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BasketController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Dtos/AddressDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Dtos/AddressDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
-    </list>
+    <list default="true" id="33d78039-01a6-4792-91aa-4d404556b6ad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +191,7 @@
       <workItem from="1606146040165" duration="391000" />
       <workItem from="1606171209157" duration="5648000" />
       <workItem from="1606238353185" duration="11964000" />
-      <workItem from="1606323093621" duration="2777000" />
+      <workItem from="1606323093621" duration="3055000" />
     </task>
     <task id="LOCAL-00001" summary="new files, CORS, page, sort, and filter">
       <created>1605311331073</created>
@@ -295,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606262169096</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="api validation">
+      <created>1606329633503</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606329633504</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +327,8 @@
     <MESSAGE value="Set up identity to use token" />
     <MESSAGE value="Auth troubleshooting" />
     <MESSAGE value="Add additional account helper methods, extensions, auto mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add additional account helper methods, extensions, auto mapping" />
+    <MESSAGE value="api validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="api validation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606242600605">
@@ -427,10 +424,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="461" y="169" key="SettingsEditor/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1605296925185" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1606262170615">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1606329635489">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1606262170615" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/3840.0.1536.838/1920.0.1920.1050/0.0.1920.1048@0.0.1920.1048" timestamp="1606329635489" />
     <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog" timestamp="1605140203942">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
